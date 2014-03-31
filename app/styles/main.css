@@ -1,6 +1,33 @@
+/*
+.navbar {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#26A1B1', endColorstr='#143C4C');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#26A1B1', endColorstr='#143C4C')";
+    background-image: -ms-linear-gradient(left, rgba(20, 60, 76, 0.9) 0%, rgba(38, 161, 177, 0.9) 100%);
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(20, 60, 76, 0.9)), color-stop(100%, rgba(38, 161, 177, 0.9)));
+    background-image: -webkit-linear-gradient(left, rgba(20, 60, 76, 0.9), rgba(38, 161, 177, 0.9));
+    background-image: -moz-linear-gradient(left, rgba(20, 60, 76, 0.9), rgba(38, 161, 177, 0.9));
+    background-image: -o-linear-gradient(left, rgba(20, 60, 76, 0.9), rgba(38, 161, 177, 0.9));
+    background-image: linear-gradient(to left, rgba(20, 60, 76, 0.9), rgba(38, 161, 177, 0.9));
+}
+
+
+.navbar-brand {
+    width: 132px;
+    height: 50px;
+    background: url("/images/logo-tid-en.png") top center no-repeat;
+}
+ */
+
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+}
 /* Space out content a bit */
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -31,12 +58,6 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
 .container-narrow > hr {
   margin: 30px 0;
 }
